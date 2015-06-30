@@ -1,0 +1,17 @@
+2015-06-30 11:22:28.022:INFO:oejs.Server:jetty-7.6.15.v20140411
+2015-06-30 11:22:28.062:INFO:oejdp.ScanningAppProvider:Deployment monitor /home/kl/devops/helloworld/target/cargo/configurations/jetty7x/webapps at interval 1
+2015-06-30 11:22:28.070:INFO:oejd.DeploymentManager:Deployable added: /home/kl/devops/helloworld/target/cargo/configurations/jetty7x/webapps/cargocpc.war
+2015-06-30 11:22:28.125:INFO:oejw.WebInfConfiguration:Extract jar:file:/home/kl/devops/helloworld/target/cargo/configurations/jetty7x/webapps/cargocpc.war!/ to /tmp/jetty-0.0.0.0-8088-cargocpc.war-_cargocpc-any-/webapp
+2015-06-30 11:22:28.504:INFO:oejsh.ContextHandler:started o.e.j.w.WebAppContext{/cargocpc,file:/tmp/jetty-0.0.0.0-8088-cargocpc.war-_cargocpc-any-/webapp/},/home/kl/devops/helloworld/target/cargo/configurations/jetty7x/webapps/cargocpc.war
+2015-06-30 11:22:28.551:INFO:oejdp.ScanningAppProvider:Deployment monitor /home/kl/devops/helloworld/target/cargo/configurations/jetty7x/contexts at interval 1
+2015-06-30 11:22:28.551:INFO:oejd.DeploymentManager:Deployable added: /home/kl/devops/helloworld/target/cargo/configurations/jetty7x/contexts/helloworld.xml
+2015-06-30 11:22:28.568:INFO:oejw.WebInfConfiguration:Extract jar:file:/home/kl/devops/helloworld/target/helloworld.war!/ to /home/kl/devops/helloworld/target/helloworld
+2015-06-30 11:22:29.650:INFO:oejsh.ContextHandler:started o.e.j.w.WebAppContext{/helloworld,file:/home/kl/devops/helloworld/target/helloworld/},/home/kl/devops/helloworld/target/helloworld.war
+2015-06-30 11:22:29.683:INFO:oejs.AbstractConnector:Started SelectChannelConnector@0.0.0.0:8088
+2015-06-30 11:22:33.013:INFO:oejs.Server:Graceful shutdown SelectChannelConnector@0.0.0.0:8088
+2015-06-30 11:22:33.013:INFO:oejs.Server:Graceful shutdown o.e.j.w.WebAppContext{/cargocpc,file:/tmp/jetty-0.0.0.0-8088-cargocpc.war-_cargocpc-any-/webapp/},/home/kl/devops/helloworld/target/cargo/configurations/jetty7x/webapps/cargocpc.war
+2015-06-30 11:22:33.013:INFO:oejs.Server:Graceful shutdown o.e.j.w.WebAppContext{/helloworld,file:/home/kl/devops/helloworld/target/helloworld/},/home/kl/devops/helloworld/target/helloworld.war
+2015-06-30 11:22:34.044:INFO:oejsl.ELContextCleaner:javax.el.BeanELResolver purged
+2015-06-30 11:22:34.044:INFO:oejsh.ContextHandler:stopped o.e.j.w.WebAppContext{/helloworld,file:/home/kl/devops/helloworld/target/helloworld/},/home/kl/devops/helloworld/target/helloworld.war
+2015-06-30 11:22:34.046:INFO:oejsl.ELContextCleaner:javax.el.BeanELResolver purged
+2015-06-30 11:22:34.046:INFO:oejsh.ContextHandler:stopped o.e.j.w.WebAppContext{/cargocpc,file:/tmp/jetty-0.0.0.0-8088-cargocpc.war-_cargocpc-any-/webapp/},/home/kl/devops/helloworld/target/cargo/configurations/jetty7x/webapps/cargocpc.war
