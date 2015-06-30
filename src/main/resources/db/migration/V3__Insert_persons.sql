@@ -1,0 +1,4 @@
+V3__Insert_persons.sql
+INSERT INTO PERSON (NAME) VALUES ('Peter Meyer');
+INSERT INTO PERSON (NAME) VALUES ('Peter Bonnd');
+INSERT INTO PERSON (NAME) VALUES ('Klara Korn');
